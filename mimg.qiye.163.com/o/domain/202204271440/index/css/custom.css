@@ -1,0 +1,177 @@
+body, button, input, select, textarea {
+	font: 13px 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+.en .login-mod h2 {
+	background: none;
+	text-indent: 0;
+	font-size: 14px;
+	color: #115D8B;
+	position: relative;
+	left: 0;
+	padding-left: 40px;
+	line-height: 30px;
+}
+.en .login-mod em {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-position: -252px 0;
+	width: 30px;
+	height: 30px;
+}
+.tw .login-mod h2 {
+	background-position:-252px -36px;
+}
+.main-part {
+	background-image: none;
+}
+.text-mod p {
+	width: 100%;
+	height: 100%;
+	display: none;
+	text-indent: -999em;
+	overflow: hidden;
+}
+.login-mod-wrapper{
+	display: none;
+}
+.sec-mod,
+.sec-mod h2,
+.login-mod .ipt-b,
+.login-mod h2,
+.logo span,
+.login-mod-wrapper-0, .login-mod-wrapper-3 {
+	left: 498px;
+}
+.login-mod-wrapper-1 {
+	left: 33px;
+}
+.login-mod-wrapper-2 {
+	left: 271px;
+}
+
+.m-codebox .closeentry{background: url("../img/codebg.png") -9999px -9999px;_background-image: url("../img/codebg-ie.png")}
+.w-codeentry,
+.m-codebox{position: absolute;bottom: 0;right: 0;_bottom: 0;_right: 0;cursor: default;}
+.w-codeentry,
+.m-codebox .closeentry{width: 64px;height: 63px;}
+.w-codeentry{background-position: 0 0;}
+.w-codeentry:hover{background-position: -65px 0;}
+.m-codebox{top: 355px;left: 413px;overflow: hidden;}
+.m-codebox .closeentry{position: absolute;right: 0;_right: -1px;bottom: 0;background-position: 0 -65px;}
+.m-codebox .closeentry:hover{background-position: -65px -65px;}
+.m-codebox .title{margin-top: 88px;line-height: 40px;font-size: 14px;color: #000;text-align: center;}
+.m-codebox .appLoginTab{font-size: 16px; color: #626262; text-align: center; position: relative; overflow: hidden;}
+.m-codebox .appLoginTab h3{padding-top: 20px; font-weight: normal; line-height: 35px}
+.m-codebox .appCodeWrap{margin-top: 30px; height: 150px; position: relative;}
+.m-codebox .appCode{padding: 2px; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,.3); width: 134px; height: 134px;}
+.m-codebox .appCodeBox,
+.m-codebox .appCode-example{-webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;}
+.m-codebox .appCodeBox{position: relative; left: 0; width: 100%;}
+.m-codebox .appLoginTab .hover.allowmove .appCodeBox{left: -66px;}
+.m-codebox .appCodeLoading{position: absolute; top: 60px; left: 140px;}
+.m-codebox .appCode-example{position: absolute; top: -20px; right: 40px; opacity: 0; filter:alpha(opacity=0); width: 140px; height: 175px; background: url('../img/applogin_example.png') no-repeat; _background-image:url('../img/applogin_example_ie6.png');}
+.m-codebox .appLoginTab .hover.allowmove .appCode-example{opacity: 1; filter:alpha(opacity=100);}
+.m-codebox .appCodeRefresh{position: absolute; top: 0; left: 138px;width: 138px;height: 138px; cursor: pointer;}
+.m-codebox .appLoginTxt{height: 12px; line-height: 12px; font-size: 12px;}
+.m-codebox .appLogin-hint{margin: 5px auto 0; width: 190px; text-align: center; font-size: 12px; line-height: 22px; background: #74B9F4; background: rgba(117, 187, 245, 0.8); color: #fff; border-radius: 20px;}
+.m-codebox .appLoginlink{padding-top: 30px; font-size: 13px; line-height: 16px}
+.m-codebox .appLoginlink var{color: #e0e0e0; margin: 0 10px;}
+.m-codebox .appLoginlink a{color: #4ea9f6;}
+.m-codebox .appLoginlink a:hover{color: #4ea9f6;text-decoration: underline;}
+.m-codebox .howToUseApp:hover{color: #67bdff; text-decoration: none;}
+.m-codebox .appCode-mask{height: 100%; background: #000; opacity: 0.7; filter:alpha(opacity=70);}
+.m-codebox .appCode-wrap{width: 138px; text-align: center; color: #fff; line-height: 26px;display: table-cell;
+    vertical-align: middle;
+    height: 138px;background: rgba(0,0,0,.7);}
+.m-codebox .appLogin-scanSuc{margin: 0 auto; width: 230px; height: 210px; background: url('../img/applogin_scansuc.png') no-repeat; _background-image:url('../img/applogin_scansuc_ie6.png');}
+.m-codebox .appLoginScan{padding-top: 20px;}
+.m-codebox .appLoginRestart{color: #5b8cca; font-size: 14px;}
+.m-codebox .appLogin-scantxt{margin-top: 10px; line-height: 40px; font-weight: bold;}
+
+.login-mod{
+	position: static;
+}
+.text-link{
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	width: 226px;
+	height: 30px;
+}
+.text-mod {
+	display: none;
+}
+.goto {
+	position: relative;
+}
+.gotoLink {
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 13px;
+	cursor: pointer;
+}
+.gotoLink:hover {
+	text-decoration: none;
+}
+.selectNetwork {
+	position: absolute;
+	left: 28px;
+	top: 66px;
+	font-size: 13px;
+	padding: 3px;
+	background: #4489B9;
+	width: 100px;
+}
+.selectNetwork .title {
+	padding-left: 10px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+	color: white;
+}
+.selectNetwork .isps {
+	background: white;
+	color: #848585;
+	text-align: center;
+	height: 50px;
+}
+.selectNetwork .isp {
+	width: 100px;
+	height: 40px;
+	padding: 5px 0;
+	border-right: 1px solid #aaa;
+	float: left;
+	cursor: pointer;
+	text-decoration: none;
+}
+.selectNetwork a:hover {
+	background: #EEE;
+	text-decoration: none;
+}
+.selectNetwork .selected {
+	background: #EEE;
+}
+.selectNetwork .isp-1 {
+	border-right: none;
+}
+.selectNetwork .best {
+	color: #22AC37;
+}
+.selectNetwork .error {
+	color: red;
+}
+.f-cb:after {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	content: ".";
+}
+.f-cb {
+	zoom: 1;
+}
+.f-dn {
+    display: none;
+}
